@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "build": {
+    "version": "0.1.0",
+    "builtAt": "2026-09-29T14:44:25.084Z",
+    "processing": "local-browser",
+    "externalModelsEnabledByDefault": false
+  },
+  "verification": {
+    "nodeTestsPassed": 74,
+    "syntax": "passed",
+    "build": "passed",
+    "browser": "blocked at Chromium launch; not verified",
+    "realModels": "not verified"
+  },
+  "files": [
+    {
+      "name": "spacekeeper-web.zip",
+      "size": 80854,
+      "sha256": "f433da6d3440edaf55bdad55c9dd3e0900cae6f47e813c000aaf345dae73226a"
+    },
+    {
+      "name": "spacekeeper-web-source.zip",
+      "size": 68520,
+      "sha256": "eb1d7d9c1ff1ff773baabe9391b8d44a48ea21b327734ace900a6fe0b78d8d7f"
+    }
+  ]
+}

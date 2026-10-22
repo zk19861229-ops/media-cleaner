@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6c54de">
+  <meta name="description" content="拾光清理：在浏览器本地分析图片与视频，确认计划后再清理。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob: data:; media-src 'self' blob:; worker-src 'self' blob:; connect-src 'self' https:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>拾光清理 · 给回忆留点空间</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <div id="app"><div class="boot"><span class="boot-mark">拾</span><h1>拾光清理</h1><p>正在准备你的本地工作区…</p></div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"></dialog>
+  <dialog id="preview-dialog" aria-label="媒体预览"></dialog>
+  <input id="folder-input" type="file" webkitdirectory multiple hidden>
+  <input id="files-input" type="file" accept="image/*,video/*" multiple hidden>
+  <noscript>此应用需要 JavaScript。所有文件分析默认在浏览器本地进行。</noscript>
+</body>
+</html>
